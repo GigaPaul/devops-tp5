@@ -1,2 +1,2 @@
 FROM httpd:alpine
-COPY index.html /var/
+COPY index.html /usr/local/apache2/htdocs/
